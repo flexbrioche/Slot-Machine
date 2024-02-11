@@ -1,6 +1,6 @@
 MAX_LINES = 3
 MAX_BET = 100
-MIN_BET = 2
+MIN_BET = 1
 
 def deposit():
     while True:
@@ -12,7 +12,7 @@ def deposit():
             else:
                 print("Amount must be great than 0.")
         else:
-            print("Please enter a number")
+            print("Please enter a number.")
     
     return amount
 
